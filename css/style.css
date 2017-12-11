@@ -1,12 +1,12 @@
 html, body{
     margin: 0;
     padding: 0;
+    border: 5px solid #0d1116;
 }
 
 img{
     width: 100%;
     display: block;
-    /*vertical-align: top;*/
 }
 
 img.responsive{
@@ -22,3 +22,4 @@ img.responsive{
         display: block;
     }
 }
+    
