@@ -1,9 +1,11 @@
 html, body{
     margin: 0;
     padding: 0;
+    border: 10px solid #0d1116;
 }
 
 img{
     max-width: 100%;
+    min-width: 100%;
     vertical-align: top;
 }
