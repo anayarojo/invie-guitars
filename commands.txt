@@ -1,0 +1,13 @@
+git branch -l
+git checkout xxxx
+clear
+git log --oneline
+git checkout xxxx
+git checkout xxxx
+clear
+git checkout -b xxxx
+git branch -l
+git checkout master
+git checkout xxxx
+git checkout -b xxxx
+git branch -l
