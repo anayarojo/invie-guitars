@@ -4,7 +4,21 @@ html, body{
 }
 
 img{
-    max-width: 100%;
-    min-width: 100%;
-    vertical-align: top;
+    width: 100%;
+    display: block;
+    /*vertical-align: top;*/
+}
+
+img.responsive{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    img{
+        display: none;
+    }
+    
+    img.responsive{
+        display: block;
+    }
 }
